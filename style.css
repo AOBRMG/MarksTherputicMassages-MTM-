@@ -1,0 +1,69 @@
+html, body {
+    height: 100%;
+}
+body{
+	background-image: url("images/abstract-background.jpg");
+}
+.carousel-inner{
+	max-height: 470px;
+}
+.navbar{
+	background-color: #ccffff;
+}
+.navbar .navbar-brand {
+  color: #337ab7;
+}
+
+.body_container{
+	height: 100%;
+	width: 100%;
+}
+.content_container{
+	display: block;
+}
+.left_sidebar{
+	float: left;
+	width: 15%;
+	height: -webkit-fill-available;
+	display: block;
+	overflow: auto;
+}
+.information_container{
+	float: left;
+	width: 35%;
+	border: 1px solid #4d4dff;
+	text-align: center;
+	background-color: #fff;
+	/*padding-left: 15px;*/
+}
+.product_table_container{
+	float: left;
+	width: 35%;
+	border: 1px solid #4d4dff;
+	text-align: center;
+	background-color: #fff;
+	/*padding-right: 15px;*/
+}
+.right_sidebar{
+	float: left;
+	width: 15%;
+	height: -webkit-fill-available;
+	display: block;
+	overflow: auto;
+}
+
+.footer_container{
+	float: left;
+    width: 100%;
+    background-color: navy;
+    color: white;
+    text-align: center;
+}
+.link_container{
+	width: 50%;
+	float: left;
+}
+.certificate_continaer{
+	width: 50%;
+	float: right;
+}
